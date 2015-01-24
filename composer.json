@@ -1,10 +1,7 @@
 {
-"require": {
-        "php": ">=5.4.0",
-        "symfony/dom-crawler": "3.0.*@dev",
-	"symfony/css-selector": "3.0.*@dev"    
-},
-    "autoload": {
-        "psr-4": { "Goutte\\": "Goutte" }
-    }
+	"require": {
+        	"php": ">=5.4.0",
+        	"symfony/dom-crawler": "3.0.*@dev",
+		"symfony/css-selector": "3.0.*@dev"    
+	}
 }
