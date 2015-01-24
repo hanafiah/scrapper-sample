@@ -1,10 +1,29 @@
 <?php
-//composer autoload
+/**
+ * composer autoload
+ */
 require 'vendor/autoload.php';
+
+/**
+ * we use symfony crawler library to handle dom handler
+ * http://symfony.com/doc/current/components/dom_crawler.html
+ */
 use Symfony\Component\DomCrawler\Crawler;
 
-
+/**
+ * Your search term
+ */
 $term = 'school';
+
+/**
+ * enable this if you want to get search term from query string
+ */
+//$term = isset($_GET['s'])?$_GET['s']:'school';
+/* 
+ * usage
+ * index.php?s=school
+ * 
+ */
 
 /**
  * set the language
