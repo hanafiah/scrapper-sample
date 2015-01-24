@@ -10,4 +10,4 @@ composer install
 ```
 
 # license
-scrapper-sample is licensed under the MIT license.
+scrapper-sample is licensed under the <a target="_blank" href="http://opensource.org/licenses/MIT">MIT license</a>.
